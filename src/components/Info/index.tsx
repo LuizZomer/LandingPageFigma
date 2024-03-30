@@ -21,7 +21,7 @@ const Info = () => {
             </div>
         </SingleStyled>
         <SingleStyled>
-            <img src={ServerImg} alt="Foto servidor         " />
+            <img src={ServerImg} alt="Foto servidor" />
             <div>
                 <span className="numInfo">50+</span>
                 <span>Servers</span>

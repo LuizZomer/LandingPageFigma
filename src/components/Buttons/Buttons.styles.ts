@@ -32,9 +32,9 @@ export const BtnGetStarted = styled.button`
     color: #fff;
     border-radius: 10px;
     border: none;
-    margin-top: 50px;
     box-shadow: 2px 3px 10px rgba(1, 1, 1, 0.4);
     transition: .5s;
+    font-weight: 600;
 
     &:hover{
         border: 1px solid #F53838;
@@ -43,4 +43,9 @@ export const BtnGetStarted = styled.button`
         font-size: 16px;
         cursor: pointer;
     }
+`
+
+export const ButtonPlan = styled(ButtonSignUp)`
+    border: 2px solid #F53838;
+    font-weight: bold;
 `

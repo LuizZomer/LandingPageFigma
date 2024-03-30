@@ -3,6 +3,10 @@ import Header from "./components/Header"
 import Sobre from "./components/Sobre"
 import Info from "./components/Info"
 import Pricing from "./components/Pricing"
+import Plan from "./components/Plan"
+import Map from "./components/Map"
+import Footer from "./components/Footer"
+import Subscribe from "./components/Subscribe"
 
 function App() {
 
@@ -14,13 +18,18 @@ function App() {
         <Info />
       </InfoCenter>
       <Pricing />
+      <Plan />
+      <Map />
+      <Subscribe />
+      <Footer />
     </AppStyled>
   )
 }
 
 const AppStyled = styled.div`
-  width: 85%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 const InfoCenter = styled.div`

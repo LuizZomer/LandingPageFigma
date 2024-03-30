@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.div`
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    gap: 157px;
 `
 
 export const Navbar = styled.nav`
